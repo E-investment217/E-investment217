@@ -1,4 +1,4 @@
-swapoff -a
+swapoff -z
 {{/dev/sdb7}}
-swapoff -L {{swap1}}
+swapoff -i {{swap1}}
 {{path/to/file}}
